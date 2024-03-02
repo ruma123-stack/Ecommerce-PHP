@@ -42,9 +42,9 @@
        <li> 
         <a href="https://localhost/rumi/views/account.php"><i class="fas fa-user"></i></a>
         </li>
-        <li> 
+<!--         <li> 
         <a href="https://localhost/rumi/views/cart.php"><i class="fas fa-shopping-cart"></i></a>
-        </li>
+        </li> -->
 </ul>
     </div>
   </div>
