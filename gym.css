@@ -1,0 +1,94 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-image:url("../images/gympic.jpg");
+    background-size: cover;
+
+}
+.left{
+    display:inline-block;
+    position:absolute;
+    left:38px;
+    top:18px;
+}
+.left img{
+    width:100px;
+}
+.left div{
+    text-align:left;
+    color:beige;
+    font-size: 20px;
+}
+.left h4{ color:gray;
+}
+.mid{   
+    display:flex;
+    width:33%;
+    margin:18px auto;
+
+}
+.right{ 
+    display:inline-block;
+    position:absolute;
+    right:30px;
+    top:18px;
+}
+.btn{
+    margin:0px 5px;
+    color:aliceblue;
+    background-color: blue;
+    padding:12px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+}
+.navbar{
+    display:inline-block;
+    background-color: black;
+}
+.navbar li{
+    display:inline-block;
+    color:beige;
+    text-decoration: none;
+    padding:15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar li:hover,nav li a.active{
+    text-decoration:underline;
+    color:red;
+}
+.container{border:2px solid white;
+    margin:160px 80px;
+    padding:35px 75px;
+    width: 33%;
+    border-radius: 20px;
+}
+.form-group input{
+    font-size:15px;
+    margin:13px auto;
+    text-align: center;
+    display:block;
+    padding:16px;
+    width:130px;
+    border:2px solid black;
+    border-radius:8px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    background-color:blue;
+    color:white;
+    display:block;
+    width:35%;
+    margin:auto;
+
+}
+

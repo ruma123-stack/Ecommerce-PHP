@@ -1,0 +1,474 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;1,200;1,400&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    top:0;
+    left:0;
+}
+.navbar a{
+    font-size: 20px;
+    font-weight: 500;
+    padding:10px;
+}
+.nav-buttons{
+    margin-left:50%;
+}
+.navbar-dark .navbar-nav .nav-link{
+    padding:0 10px;
+    color:black;
+    transition:0.3s ease;
+}
+.navbar-dark .navbar-nav .nav-link,
+.navbar i:hover,
+.navbar-dark .navbar-nav .nav-link.active
+ .navbar i:hover{
+         color:black;
+}
+.navbar i{
+    font-size: 1.2rem;
+    padding:0 0.5px;
+    transition:0.4s ease;
+    cursor: pointer;
+}
+.navbar i:hover{
+    color:white;
+}
+
+.item{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.item img{
+    width:100%;
+    height:300px;
+    object-fit: center;
+}
+.product{
+    background-image: url(../images/women5.jpg);
+    width:100%;
+    min-height:90vh;
+    background-position: top;
+    background-size: cover;
+    display:flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: center;
+    padding:15px;
+}
+.product h2{
+    font-size: 50px;
+    color:black;
+    font-weight: 600; 
+}
+.product h3{
+    font-size: 50px;
+    color:red;
+    font-weight: 600;
+    
+}
+#pagination{
+    padding:15px;
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color:green;
+    padding:10px 16px;
+    border-radius: 2px;
+    color: azure;
+    font-weight: 300;
+
+}
+
+.small-img-group{
+    display:flex;
+    justify-content: space-between;
+      
+}
+.small-img-col{
+    flex-basis: 30%;
+    cursor: pointer;
+}
+.small-img-col h5{
+    font-size: 20px;
+    font-weight: 500;
+    color:red;
+    text-transform: uppercase;
+}
+.single-product input{
+    width:50px;
+    height:40px;
+    padding-left: 10px;
+    font-size:16px;
+    margin-right: 10px;
+}
+.single-product input:focus{
+    outline:none;
+}
+.cart table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart .product-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart th{
+    text-align: left;
+    padding:5px 10px;
+    color:white;
+    background-color: #f44336;
+}
+.cart td{
+    padding: 10px 20px;
+}
+.cart td img{
+    width: 120px;
+    margin-right: 15px;
+}
+.cart-total{
+    display: flex;
+    justify-content: flex-end;
+}
+.cart-total table{
+    width: 100%;
+    max-width: 500px;
+    border-top: 2px solid #f44336;
+}
+.checkout-btn{
+float:right;
+justify-content: flex-end;
+}
+.remove-btn{
+    font-size: large;
+    color:red;
+}
+
+.product-info input{
+    width:50px;
+    height:40px;
+    padding-left: 10px;
+    font-size:16px;
+    margin-right: 10px;
+}
+.product-info input:focus{
+    outline:none;
+}
+#blog{
+    padding:8px 8px;
+}
+#blog .blog-box{
+    display:flex;
+    align-items: center;
+    width:100%;
+
+}
+#blog .blog-img{
+    width:60%;
+    margin-right: 40px;
+    
+}
+#blog img{
+     width:100%;
+     height: 500px;
+     object-position:cover ;  
+}
+#blog .blog-details{
+    width:50%;
+}
+.blog-details h4{
+    font-size: 28px;
+    font-weight: 600;
+}
+#blog .blog-details a{
+text-decoration: none;
+font-size: 20px;
+color: green;
+font-weight: 700;
+}
+#blog .blog-details a:hover{
+    color:red;
+    transition: 1s;
+}
+#blog .blog-details h1{
+position:absolute;
+top:-40px;
+left:0;
+font-size: 60px;
+font-weight: 700;
+}
+#blog .blog-details p{
+    color:grey;
+}
+
+.location{
+    width:80%;
+    margin:auto;
+    padding:50px 0;
+}
+.location iframe{
+width:100%;
+}
+.contact-us{
+width:80%;
+margin:auto;
+}
+.contact-col{
+    flex-basis: 40%;
+    margin-bottom: 20px;
+}
+.contact-col div{
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-col div .fa{
+    font-size: 20px;
+    color:#f44336;
+    margin:10px;
+    margin-right: 20px;
+}
+.contact-col div p{
+    padding:0;
+}
+.contact-col div h5{
+    font-size:15px;
+    margin-bottom: 5px;
+    color:#555;
+    font-weight: 300;
+}
+.contact-col input, .contact-col textarea{
+    width:90%;
+    padding:12px;
+    margin-bottom: 15px;
+    outline:none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border:1px solid #fff;
+    padding:12px 30px;
+    font-size: 13px;
+    background: black;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border:1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+#subtotal{
+    display:flex;
+    width: 50%;
+    margin-bottom:30px;
+    border: 1px solid #e2e9e1;
+    padding:20px;
+}
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#coupon{
+    width:50%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding:18px;
+}
+#coupon h3{
+    padding-bottom: 15px;
+}
+#coupon input{
+    padding:10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border:1px solid #e2e9e1;
+}
+@media(max-width:600px){
+    .cart-add{
+width: 350px;
+    }
+    .subtotal table{
+        width:320px;
+    }
+}
+.insert-form{
+    width:80%;
+    margin:5px auto;
+    text-align: center;
+    padding:20px;
+
+}
+.insert-form input{
+width: 50%;
+margin:10px auto;
+}
+.insert-form #item-btn{
+    background-color: blue;
+    color:#ccc;
+}
+
+
+/* Login*/
+
+.login-form{
+    width:50%;
+    margin:5px auto;
+    text-align: center;
+    padding:20px;
+
+}
+.login-form input{
+width: 50%;
+margin:5px auto;
+}
+.login-form #login-btn{
+    background-color: blue;
+    color:#ccc;
+}
+/*Register */
+
+.register-form{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding:20px;
+
+}
+.register-form input{
+width: 50%;
+margin: 5px auto;
+}
+.register-form #register-btn{
+    color:white;
+    background-color: blue;
+}
+
+/* account*/
+
+#account-form{
+    width: 40%;
+    margin:25px auto;
+    text-align: center;
+    padding:10px;
+}
+
+#account-form input{
+    margin: 5px  auto;
+}
+.account-info #order-btn,#logout-btn{
+    color:blue;
+    text-decoration: none;
+}
+#account-form h3{
+    text-align: center;
+}
+
+.icons .fa{
+    color:white;
+    margin:0 13px;
+    cursor: pointer;
+    padding:18px 0;
+}
+
+.container-payment {
+    height: 100vh;
+    width: 100%;
+    background:#fff;
+    position: absolute;
+    align-items: center;
+
+
+}
+
+.text {
+    text-align: center;
+    font-size: 300%;
+    text-decoration: aliceblue;
+    color: aliceblue;
+}
+ 
+.course {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+ 
+.centre-content {
+    height: 180px;
+    margin: -70px 30px 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-top: 0.5px;
+    background-image: linear-gradient(#1e6b30, #308d46);
+}
+ 
+.centre-content-h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: normal;
+}
+ 
+.price {
+    font-size: 60px;
+    margin-left: 5px;
+    bottom: 15px;
+    position: relative;
+}
+pay-now-btn {
+    cursor: pointer;
+    color: #fff;
+    height: 50px;
+    width: 290px;
+    border: none;
+    margin: 5px 30px;
+    background-color: rgb(71, 177, 61);
+    position: relative;
+}
+ 
+.card-details {
+    background: rgb(8, 49, 14);
+    color: rgb(225, 223, 233);
+    margin: 10px 30px;
+    padding: 50px;
+    align-items: center;
+   
+}
+.card-details p {
+    font-size: 15px;
+}
+ 
+.card-details label {
+    font-size: 15px;
+    line-height: 35px;
+}
+ 
+.submit-now-btn {
+    cursor: pointer;
+    color: #fff;
+    height: 30px;
+    width: 240px;
+    border: none;
+    margin: 20px 30px;
+    background-color: rgb(71, 177, 61);
+}

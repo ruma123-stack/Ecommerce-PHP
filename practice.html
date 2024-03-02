@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create forms</title>
+    </head>
+    <body>
+<form>
+<label for="username">enter username:</label>
+<input type="text" id="username" name="username" placeholder="username">
+<br><br>
+<label for="email">enter email:</label>
+<input type="email" id="email" name="email">
+<br><br>
+<label for="password">enter password:</label>
+<input type="password" id="password" name="password">
+
+<p>select yor age:</p>
+<input type="radio" name="age" value="0-18" id="option-1">
+<label for="option-1">0-18</label>
+<input type="radio" name="age" value="18-30" id="option-2">
+<label for="option-2">18-30</label>
+<br><br>
+<label for="question">security question:</label>
+<select name="question" id="question">
+    <option value="q1"> what is your fav fruit</option>
+    <option value="q2"> what is your fav color</option>
+</select>
+<br><br>
+<label for="answer that">security question answers:</label>
+<input type="text" id="answer" name="answer">
+</form>
+<br><br>
+<label for="bio">your bio:</label><br>
+<textarea name="bio"id="bio" cols="30" rows="10" placeholder="about you..">
+</textarea><br><br>
+<input type="submit" value="submit the form">
+    </body>
+</html>

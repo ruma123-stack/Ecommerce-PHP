@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;1,200;1,400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width:100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin:50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .left_side{
+position: relative;
+background:burlywood;
+padding:30px;
+}
+.container .right_side{
+    position: relative;
+    background: #fff;
+    padding:40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .imgbx{
+position: relative;
+width:200px;
+height:200px;
+border-radius: 50%;
+overflow: hidden;
+}
+.profileText .imgbx img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+}
+.contactInfo{
+    padding-top: 25px;
+}
+.title{
+    color:black;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin:10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    display:inline-block;
+    width:30px;
+    font-size: 15px;
+    color:black;
+}
+.contactInfo ul li span{
+    color:black;
+    font-weight: 400;
+}
+.Info-education{
+    margin-bottom: 15px;
+}
+.Info-education h3{
+    padding:15px;
+}
+.Info-education h5{
+    color:black;
+    font-weight: 500;
+    margin:15px;
+}
+.Info-education h4:nth-child(2)
+{
+    color:black;
+    font-weight: 500;
+}
+.Info-education h4{
+    color:black;
+    font-weight: 400;
+}
+
+.Info-lang{
+position: relative;
+display: block;
+color:black;
+}
+.Info-lang h2{
+    color:black;
+    font-weight: 400;
+    padding:15px;
+}
+.right_side h2{
+    color:#003147;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+}
+.right_side span{
+    color:#003147;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom:0;
+}
+.title2{
+    color:#003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    padding:20px;
+    font-weight: 500;
+}
+p{
+    color: black;
+}
+.about .box{
+    display: flex;
+flex-direction: row;
+    margin:20px 0;
+}
+.about .box .year_company{
+    min-width:150px;
+
+}
+.about .box .year_company h5{
+    text-transform: uppercase;
+    color:#6f7274;
+    font-weight: 500;
+}
+.about .box .text h4{
+    text-transform: uppercase;
+    color:#2a7da2;
+    font-size: 16px;
+}
+
+.interest ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.interest ul li{
+    list-style: none;
+    color:black;
+    font-weight: 500;
+    margin:10px;
+}
+@media (max-width:1000px){
+    .container{
+        margin :10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

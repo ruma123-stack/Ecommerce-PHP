@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signup form</title>
+        <link rel="stylesheet" href="signup.css">
+    </head>
+    <body>
+<div class="container">
+<div class="form-box">
+    <h1 id="title">SignUp</h1>
+    <form>
+        <div class="input-group">
+            <div class="input-field" id="namefield">
+<label for="firstname" class="form-label">Name</label>
+<input type="text" placeholder="Enter your name">
+</div>
+<div class="input-field">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" placeholder="Enter your email">
+    </div>
+    <div class="input-field">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" placeholder="Enter your password">
+        </div>
+        <p>Forgot password <a href="#">Click Here!</a></p>
+        
+        </div>
+        <div class="btn-field">
+            <button type="button" id="signupbtn">Sign up</button>
+            <button type="button" id="signinbtn" class="disable">Sign in</button>
+        </div>
+    </form>
+</div>
+</div>
+<script>
+    let signupbtn =document.getElementById("signupbtn");
+    let signinbtn =document.getElementById("signinbtn");
+    let namefield =document.getElementById("namefield");
+    let title =document.getElementById("title");
+
+    signinbtn.onclick = function(){
+        namefield.style.maxheight ="0";
+        title.innerHTML ="sign in";
+        signupbtn.classList.add("disable");
+        signinbtn.classList.remove("disable");
+    }
+        signupbtn.onclick = function(){
+        namefield.style.maxheight ="60px";
+        title.innerHTML ="sign up";
+        signupbtn.classList.remove("disable");
+        signinbtn.classList.add("disable");
+    }
+</script>
+    </body>
+</html>

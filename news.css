@@ -1,0 +1,213 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'lato',sans-serif;
+
+}
+.navbar{
+    background-color:white;
+    overflow: hidden;
+    position:sticky;
+    z-index:1;
+    top:0;
+
+}
+.navbar a{
+    float: left;
+    display:block;
+    color:black;
+    text-align: center;
+    padding:10px 12px;
+    text-decoration: none;
+}
+.navbar .logo{
+   
+    width:200px;
+    float:left;
+    display: block;
+    padding:30px 57px;
+}
+.navbar .logo-name{
+    color:red;
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.navbar .nav-right{
+    float:right;
+    margin:55px;
+    font-weight:bold ;
+}
+.nav-right{
+    margin-left:30px;
+
+}
+.navbar a:hover{
+    background-color:red;
+    color:black;
+}
+#showcase{
+    color:white;
+    background: #333;
+    padding:2rem;
+    position:relative;
+    font-weight: bold;
+}
+#showcase{
+    content:'';
+    background-image: url(../images/cycle.jpg);
+    height:70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    max-width: var(--max-width);
+    margin:auto;
+    padding:0 2rem;
+    overflow: hidden;
+}
+#showcase .showcase-container{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+}
+#showcase .showcase-content{
+    z-index:1;
+
+}
+.category{
+    display: inline-block;
+    color:white;
+    font-size: .66rem;
+    text-transform: uppercase;
+    padding:0.4rem 0.6rem;
+    border-radius: 15px; 
+}
+.category{
+    --sports-color: red;
+    --ent-color:white;
+}
+
+category.category-sports{
+    background:red var(--sports-color);
+}
+h1 {
+    font-family:'Franklin Gothic Medium', sans-serif
+    margin-bottom: .55rem;
+    line-height:5px
+}
+h1 {
+    display:block;
+    color:white;
+    font-size:20px;
+    font-weight:600;
+    margin-block-start: .67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.info{
+    font-family: Arial, sans-serif;
+    background-color:whitesmoke;
+    display:grid;
+    grid-gap:1rem;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+    height:100vh;
+    overflow: hidden;
+}
+.card{
+
+    background-color: #fff;
+    border:1px solid #ccc;
+    box-shadow: 3px 4px 4px;
+    
+    text-align: center;
+}
+.card img{
+    height:auto;
+    overflow: clip;
+}
+.card-content{
+    padding:20px;
+}
+.card p{
+    font-size: 16px;
+    color:black;
+margin:10px 0;
+}
+.card button{
+    background-color:red;
+    color:#ccc;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+    padding:10px 20px;
+}
+
+
+
+
+/* footer */
+footer{
+    background-color: #333;
+    color:#fff;
+    padding:30px;
+    text-align: center;
+    margin-top:30px;
+}
+img{
+    float:left;
+
+}
+footer .logo-name
+{
+    color:red;
+float:left;
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: bold;
+    padding:8px;
+
+}
+.newsletter{
+display:inline-block;
+text-align: left;
+width:250px;
+}
+.site-links{
+    display:inline-block;
+vertical-align: top;
+text-align: left;
+width:250px;
+margin-right: 20px;
+}
+.join-club{
+    display:inline-block;
+vertical-align: top;
+text-align: left;
+width:250px;
+margin-right: 20px;
+}
+.footer-links{
+    color:#fff;
+    text-decoration: none;
+}
+.news-letter input[type="email"],
+.newsletter button{
+    width:100%;
+    padding:10px;
+    margin-top: 10px;
+    border:none;
+}
+.newsletter button{
+    background-color:#ff5722;
+    color:#fff;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
