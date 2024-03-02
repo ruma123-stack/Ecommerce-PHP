@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost:3306";
-$username = "rumaisa";
-$password = "rumaisa786";
+$username = "";
+$password = "";
 $database= "orderdb";
 
 // Create connection
